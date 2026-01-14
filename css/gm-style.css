@@ -1,0 +1,81 @@
+/* ================= GOOGLE FONT ================= */
+/* Importimi i fontit Poppins nga Google Fonts për dizajn modern */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+/* ================= GLOBAL STYLES ================= */
+/* Reset bazë për margin, padding dhe box model */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stili bazë i body */
+body {
+    font-family: 'Poppins', sans-serif; /* Font kryesor */
+    color: #333;                        /* Ngjyra e tekstit */
+    background-color: #fff;             /* Background i bardhë */
+    line-height: 1.6;                   /* Hapësira mes rreshtave */
+}
+
+
+/* ================= ACCENT COLOR ================= */
+/* Ngjyra kryesore e brand-it Gizzy Fitness */
+.gm-primary {
+    color: #d32f2f;
+}
+
+/* Background me ngjyrë primare */
+.gm-bg-primary {
+    background-color: #d32f2f;
+}
+
+/* Butoni kryesor */
+.gm-btn-primary {
+    background-color: #d32f2f;
+    border-color: #d32f2f;
+    color: #fff;
+}
+
+/* Hover efekt për butonin */
+.gm-btn-primary:hover {
+    background-color: #b71c1c;
+    border-color: #b71c1c;
+    color: #fff;
+}
+
+
+/* ================= HEADER & NAVBAR ================= */
+/* Stili i navbar-it */
+.gm-navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Hije e lehtë */
+}
+
+/* Brand / logo e navbar-it */
+.gm-navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #d32f2f !important;
+}
+
+/* Linkat e navigimit */
+.gm-nav-link {
+    color: #333 !important;
+    font-weight: 400;
+    transition: color 0.3s; /* Animacion i butë */
+}
+
+/* Hover për linkat */
+.gm-nav-link:hover {
+    color: #d32f2f !important;
+}
+
+
+/* ================= MAIN CONTENT ================= */
+/* Përmbajtja kryesore e faqes */
+.gm-main-content {
+    min-height: calc(100vh - 200px); /* Mbush ekranin */
+    padding: 2rem 0;
+}
