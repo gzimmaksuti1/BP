@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Titulli i faqes Blog -->
+    <title>Blog - Gizzy Fitness</title>
+    
+    <!-- Bootstrap 5 CSS për dizajn dhe layout -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- CSS personal i projektit -->
+    <link rel="stylesheet" href="css/gm-style.css">
+</head>
+
+<body id="gm-blog">
+    
+    <!-- ================= NAVBAR ================= -->
+    <!-- Menuja kryesore e faqes Blog -->
+    <nav class="navbar navbar-expand-lg navbar-light gm-navbar">
+        <div class="container">
+            
+            <!-- Logo / Emri i faqes -->
+            <a class="navbar-brand gm-navbar-brand" href="index.html">Gizzy Fitness</a>
+            
+            <!-- Butoni hamburger për pajisje mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#gm-navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Linkat e navigimit -->
+            <div class="collapse navbar-collapse" id="gm-navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    
+                    <!-- Linku Shtëpia -->
+                    <li class="nav-item">
+                        <a class="nav-link gm-nav-link" href="index.html">Shtëpia</a>
+                    </li>
+                    
+                    <!-- Linku Rreth Nesh -->
+                    <li class="nav-item">
+                        <a class="nav-link gm-nav-link" href="about.html">Rreth Nesh</a>
+                    </li>
+                    
+                    <!-- Dropdown për Shërbimet -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link gm-nav-link dropdown-toggle" href="#" id="gm-servicesDropdown" role="button" data-bs-toggle="dropdown">
+                            Shërbimet
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="services.html">Të Gjitha Shërbimet</a></li>
+                            <li><a class="dropdown-item" href="gallery.html">Galeria</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Linku Blog (aktiv) -->
+                    <li class="nav-item">
+                        <a class="nav-link gm-nav-link active" href="blog.html">Blog</a>
+                    </li>
+                    
+                    <!-- Linku Ekipi -->
+                    <li class="nav-item">
+                        <a class="nav-link gm-nav-link" href="team.html">Ekipi</a>
+                    </li>
+                    
+                    <!-- Linku Dëshmitë -->
+                    <li class="nav-item">
+                        <a class="nav-link gm-nav-link" href="testimonials.html">Dëshmitë</a>
+                    </li>
+                    
+                    <!-- Linku FAQ -->
+                    <li class="nav-item">
+                        <a class="nav-link gm-nav-link" href="faq.html">Pyetje</a>
+                    </li>
+                    
+                    <!-- Linku Kontakt -->
+                    <li class="nav-item">
+                        <a class="nav-link gm-nav-link" href="contact.html">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
