@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <!-- Kodimi i karaktereve (shqip + simbole) -->
+    <meta charset="UTF-8">
+
+    <!-- Bën faqen responsive në mobile/tablet -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Titulli që shfaqet në tab të browser-it -->
+    <title>Ekipi - Gizzy Fitness</title>
+    
+    <!-- Bootstrap 5 CSS (stilizim i gatshëm) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- CSS personal i projektit -->
+    <link rel="stylesheet" href="css/gm-style.css">
+</head>
+
+<!-- ID përdoret për stil specifik vetëm për faqen Ekipi -->
+<body id="gm-team">
+    
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg navbar-light gm-navbar">
+        <div class="container">
+
+            <!-- Logo / Emri i biznesit -->
+            <a class="navbar-brand gm-navbar-brand" href="index.html">
+                Gizzy Fitness
+            </a>
+
+            <!-- Butoni hamburger (shfaqet në mobile) -->
+            <button class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#gm-navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menuja që hapet/mbyllet -->
+            <div class="collapse navbar-collapse" id="gm-navbarNav">
+                <ul class="navbar-nav ms-auto">
+
+                    <!-- Linku Shtëpia -->
+                    <li class="nav-item">
+                        <a class="nav-link gm-nav-link" href="index.html">
+                            Shtëpia
+                        </a>
+                    </li>
+
+                    <!-- Linku Rreth Nesh -->
+                    <li class="nav-item">
+                        <a class="nav-link gm-nav-link" href="about.html">
+                            Rreth Nesh
+                        </a>
+                    </li>
+
+                    <!-- Dropdown Shërbimet -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link gm-nav-link dropdown-toggle" 
+                           href="#" 
+                           id="gm-servicesDropdown" 
+                           role="button" 
+                           data-bs-toggle="dropdown">
+                            Shërbimet
+                        </a>
+
+                        <!-- Lista e shërbimeve -->
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="services.html">
+                                    Të Gjitha Shërbimet
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="gallery.html">
+                                    Galeria
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Blog -->
+                    <li class="nav-item">
+                        <a class="nav-link gm-nav-link" href="blog.html">
+                            Blog
+                        </a>
+                    </li>
+
+                    <!-- Ekipi (faqja aktive) -->
+                    <li class="nav-item">
+                        <a class="nav-link gm-nav-link active" href="team.html">
+                            Ekipi
+                        </a>
+                    </li>
+
+                    <!-- Dëshmitë -->
+                    <li class="nav-item">
+                        <a class="nav-link gm-nav-link" href="testimonials.html">
+                            Dëshmitë
+                        </a>
+                    </li>
+
+                    <!-- Pyetje të shpeshta -->
+                    <li class="nav-item">
+                        <a class="nav-link gm-nav-link" href="faq.html">
+                            Pyetje
+                        </a>
+                    </li>
+
+                    <!-- Kontakt -->
+                    <li class="nav-item">
+                        <a class="nav-link gm-nav-link" href="contact.html">
+                            Kontakt
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- =============== FUND NAVBAR =============== -->
+
+</body>
+</html>
