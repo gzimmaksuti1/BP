@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    
+    <!-- Responsive për telefona dhe tableta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Titulli i faqes -->
+    <title>Gizzy Fitness - Shtëpia</title>
+    
+    <!-- Bootstrap 5 CSS për stilizim dhe layout -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- CSS personal për dizajn të Gizzy Fitness -->
+    <link rel="stylesheet" href="css/gm-style.css">
+</head>
+
+<body id="gm-home">
+    
+    <!--  NAVBAR -->
+    <!-- Menuja kryesore e faqes -->
+    <nav class="navbar navbar-expand-lg navbar-light gm-navbar">
+        <div class="container">
+            
+            <!-- Logo / Emri i faqes -->
+            <a class="navbar-brand gm-navbar-brand" href="index.html">Gizzy Fitness</a>
+            
+            <!-- Butoni hamburger për mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#gm-navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Linkat e navigimit -->
+            <div class="collapse navbar-collapse" id="gm-navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    
+                    <!-- Linku Shtëpia -->
+                    <li class="nav-item">
+                        <a class="nav-link gm-nav-link active" href="index.html">Shtëpia</a>
+                    </li>
+                    
+                    <!-- Linku Rreth Nesh -->
+                    <li class="nav-item">
+                        <a class="nav-link gm-nav-link" href="about.html">Rreth Nesh</a>
+                    </li>
+                    
+                    <!-- Dropdown për Shërbimet -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link gm-nav-link dropdown-toggle" href="#" id="gm-servicesDropdown" role="button" data-bs-toggle="dropdown">
+                            Shërbimet
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="services.html">Të Gjitha Shërbimet</a></li>
+                            <li><a class="dropdown-item" href="gallery.html">Galeria</a></li>
+                        </ul>
+                    </li>
+                    
+                    <!-- Linku Blog -->
+                    <li class="nav-item">
+                        <a class="nav-link gm-nav-link" href="blog.html">Blog</a>
+                    </li>
+                    
+                    <!-- Linku Ekipi -->
+                    <li class="nav-item">
+                        <a class="nav-link gm-nav-link" href="team.html">Ekipi</a>
+                    </li>
+                    
+                    <!-- Linku Dëshmitë -->
+                    <li class="nav-item">
+                        <a class="nav-link gm-nav-link" href="testimonials.html">Dëshmitë</a>
+                    </li>
+                    
+                    <!-- Linku FAQ -->
+                    <li class="nav-item">
+                        <a class="nav-link gm-nav-link" href="faq.html">Pyetje</a>
+                    </li>
+                    
+                    <!-- Linku Kontakt -->
+                    <li class="nav-item">
+                        <a class="nav-link gm-nav-link" href="contact.html">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--  MAIN CONTENT  -->
+    <main class="gm-main-content">
+        <div class="container">
+            
+            <!-- HERO SECTION -->
+            <section class="gm-hero">
+                
+                <!-- Titulli kryesor -->
+                <h1>Mirësevini në Gizzy Fitness</h1>
+                
+                <!-- Tekst përshkrues -->
+                <p>Udhëtimi juaj drejt një jete më të shëndetshme dhe më të fortë fillon këtu.</p>
+                
+                <!-- Foto e hyrjes së palestrës -->
+                <div class="gm-mb-3">
+                    <img src="img/Hyrja.png" alt="Palestër" class="gm-img" style="max-width: 800px; margin: 0 auto; display: block;">
+                </div>
+                
+                <!-- Përshkrim shtesë -->
+                <p>Ofrojmë pajisje moderne, trajnerë ekspertë dhe një komunitet mbështetës për t'ju ndihmuar të arrini objektivat tuaja fitnes.</p>
+                
+                <!-- Buton që hap modalin -->
+                <button type="button" class="btn gm-btn-primary" data-bs-toggle="modal" data-bs-target="#gm-welcomeModal">
+                    Më Shumë
+                </button>
+            </section>
+            
+            <!--  MODAL  -->
+            <!-- Popup që hapet kur klikohet "Më Shumë" -->
+            <div class="modal fade" id="gm-welcomeModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        
+                        <!-- Header i modalit -->
+                        <div class="modal-header">
+                            <h5 class="modal-title">Mirësevini në Gizzy Fitness</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        
+                        <!-- Përmbajtja e modalit -->
+                        <div class="modal-body">
+                            <p>Faleminderit që vizituat Gizzy Fitness! Jemi të përkushtuar për t'ju ndihmuar të arrini objektivat tuaja fitnes.</p>
+                            <p>Bashkohuni me ne sot dhe filloni udhëtimin tuaj fitnes!</p>
+                        </div>
+                        
+                        <!-- Butonat e modalit -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Mbyll</button>
+                            <a href="contact.html" class="btn gm-btn-primary">Na Kontaktoni</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--  FOOTER  -->
+    <footer class="gm-footer">
+        <div class="container">
+            <div class="row">
+                
+                <!-- Informacioni i palestrës -->
+                <div class="col-md-6">
+                    <h5>Gizzy Fitness</h5>
+                    <p>Destinacioni juaj fitnes</p>
+                </div>
+                
+                <!-- Copyright -->
+                <div class="col-md-6 text-md-end">
+                    <p>&copy; 2024 Gizzy Fitness. Të gjitha të drejtat e rezervuara.</p>
+                    <p><a href="terms.html">Kushtet & Politikët</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS për funksionalitete (modal, dropdown, navbar) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- JavaScript personal -->
+    <script src="js/gm-script.js"></script>
+
+</body>
+</html>
