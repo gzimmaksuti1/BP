@@ -79,3 +79,220 @@ body {
     min-height: calc(100vh - 200px); /* Mbush ekranin */
     padding: 2rem 0;
 }
+/* ================= HERO SECTION ================= */
+/* Seksioni kryesor (Hero) */
+.gm-hero {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+/* Titulli i Hero section */
+.gm-hero h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Teksti i Hero section */
+.gm-hero p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+
+/* ================= IMAGES ================= */
+/* Stil i përgjithshëm për imazhe */
+.gm-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Cepa të rrumbullakët */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Placeholder për imazhe */
+.gm-img-placeholder {
+    text-align: center;
+}
+
+/* Imazhet brenda placeholder */
+.gm-img-placeholder img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Cepa të rrumbullakët */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Teksti poshtë imazhit */
+.gm-img-placeholder p {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+
+/* ================= CARDS ================= */
+/* Kartat për shërbime / postime */
+.gm-card {
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    margin-bottom: 2rem;
+}
+
+/* Efekt hover për karta */
+.gm-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Imazhi brenda kartës */
+.gm-card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Titulli i kartës */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+
+/* ================= FOOTER ================= */
+/* Footer i faqes */
+.gm-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+/* Linkat në footer */
+.gm-footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hover për linkat në footer */
+.gm-footer a:hover {
+    color: #d32f2f;
+}
+
+
+/* ================= SECTIONS ================= */
+/* Hapësira mes seksioneve */
+.gm-section {
+    margin: 3rem 0;
+}
+
+/* Titulli i seksioneve */
+.gm-section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #333;
+    text-align: center;
+}
+
+
+/* ================= TABLES ================= */
+/* Stili i tabelave */
+.gm-table {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Header i tabelës */
+.gm-table thead {
+    background-color: #d32f2f;
+    color: #fff;
+}
+
+
+/* ================= FORMS ================= */
+/* Forma kryesore */
+.gm-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Grup i inputeve */
+.gm-form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* Label i formës */
+.gm-form-label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+/* Inputet */
+.gm-form-control {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Fokus i inputeve */
+.gm-form-control:focus {
+    outline: none;
+    border-color: #d32f2f;
+    box-shadow: 0 0 0 0.2rem rgba(211, 47, 47, 0.25);
+}
+
+
+/* ================= LISTS ================= */
+/* Lista pa stil default */
+.gm-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Elementet e listës */
+.gm-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* Heq vijën nga elementi i fundit */
+.gm-list li:last-child {
+    border-bottom: none;
+}
+
+
+/* ================= UTILITIES ================= */
+/* Qendrim teksti */
+.gm-text-center {
+    text-align: center;
+}
+
+/* Margin bottom */
+.gm-mb-3 {
+    margin-bottom: 1.5rem;
+}
+
+/* Margin top */
+.gm-mt-3 {
+    margin-top: 1.5rem;
+}
+
+
+/* ================= RESPONSIVE ================= */
+/* Përshtatje për pajisje të vogla */
+@media (max-width: 768px) {
+    .gm-hero h1 {
+        font-size: 2rem;
+    }
+    
+    .gm-section-title {
+        font-size: 1.5rem;
+    }
+}
